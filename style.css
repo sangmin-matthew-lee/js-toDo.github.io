@@ -1,0 +1,104 @@
+body {
+  background-color: #fffff0;
+}
+
+h1 {
+  font-size: 150px;
+  color: white;
+  margin: 5% auto;
+  width: 2.6em;
+  padding: 8px 12px;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  display: block;
+  font-size: 200%;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  display: block;
+  text-align: center;
+  outline: 0;
+  border-width: 0 0 4px;
+  border-color: white;
+  margin: auto;
+  width: 40%;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 200%;
+}
+
+input::placeholder {
+  color: white !important;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+}
+
+.form,
+greetings {
+  display: none;
+  text-align: center;
+}
+
+.showing {
+  display: block;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+span {
+  color: white;
+  font-size: 100%;
+}
+
+button {
+  margin-left: 7px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 30%;
+}
+
+.top {
+  position: relative;
+  border: red;
+  height: 50px;
+}
+
+.top .weather {
+  color: black;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  float: right;
+}
